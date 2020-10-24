@@ -1,0 +1,698 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Susan Ng Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            position: relative;
+            background-image: url("images/doraemon_bg_01.jpg");
+            background-repeat: repeat;
+        }
+
+        ul.nav-pills {
+            position: relative;
+        }
+        #header .bottom-header {
+            padding-top: 240px;
+            padding-bottom: 280px;
+        }
+
+        .jumbotron {
+            background-image: url("images/doraemon_banner_01.jpg");
+            background-size: contain;
+            background-repeat: repeat;
+            height: 170px;
+        }
+
+        #bannerH {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            font-size: 55px !important;
+            font-weight: 700 !important;
+            text-shadow: 12px 8px 2px rgba(150, 150, 150, 1);
+        }
+
+        .textboxBG {
+            background: rgb(233, 255, 231);
+            padding: 2px 12px 2px 12px;
+        }
+
+        .textboxBGLY {
+            background: rgb(255, 255, 223);
+            padding: 2px 5px 2px 5px;
+        }
+
+        #courseSLC i + a, #courseSLIP i + a, #projectLT i + a {
+            text-decoration: underline
+        }
+
+        #courseSLC i {
+            color: purple;
+        }
+
+        #courseSLIP i {
+            color: darkorange;
+        }
+
+        #courseSLC div, #courseSLIP div {
+            font-family: Verdana, Geneva, sans-serif;
+            padding: 5px;
+            font-size: 13px;
+        }
+
+        #projectLT i {
+            color: blue;
+        }
+
+        .modal-content {
+            background-color: moccasin;
+        }
+
+        .modal-body {
+            background-color: floralwhite;
+        }
+
+        #prizeTable {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 12px;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            border-style: solid none solid none;
+        }
+
+        #prizeTable th {
+            color: darkgreen;
+            text-align: center;
+            border-style: solid none solid none;
+        }
+
+        #prizeTable tr:nth-child(odd) {
+            background-color: white;
+            text-align: left;
+            vertical-align: top;
+            border-style: solid none solid none;
+        }
+
+        #prizeTable tr:nth-child(even) {
+            background-color: honeydew;
+            text-align: left;
+            vertical-align: top;
+            border-style: solid none solid none;
+        }
+        #prizeTable td {
+            padding: 5px 10px;
+        }
+
+        #prizeTable tbody tr:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
+    <div class="jumbotron text-center text-nowrap">
+        <div id="bannerH">Susan Ng Homepage</div>
+    </div>
+    <div class="container">
+        <div class="alert alert-info alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Notice:</strong> For better support, please use Internet Explorer 11+ or Microsoft Edge to view this webpage.
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <nav class="navbar bg-light sticky-top shadow" id="myScrollspy" style="width:160px">
+                    <ul class="nav nav-pills  flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about_me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#course_study">Course Study</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#prof_qual">Professional <br />Qualifications</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <br />
+            <div class="col-md-10">
+                <div class="clearfix">
+                    <span class="float-left">
+                        <audio controls autoplay loop>
+                            <source src="sounds/doraemon_theme_song_01.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </span>
+                    <span class="align-bottom float-sm-right"><mark>Latest Update: 2020-10-24</mark></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card" style="width:100%">
+                            <img class="card-img-top rounded" src="images/doraemon.jpg" alt="Doraemon Photo" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Student</h4>
+                                <p class="card-text">Susan Ng</p>
+                                <p class="card-text"><strong>Email:</strong><a href="mailto:18007163g@connect.polyu.hk">18007163g@connect.polyu.hk</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="col-md-6">
+                        <div id="about_me" class="text-justify">
+                            <h2>About Me</h2>
+                            <div class="textboxBG">
+                                <p>
+                                    My name is Susan Ng. I have obtained the Bachelor Degree in Internet & Multimedia Technologies from
+                                    <abbr title="Department of Electronic and Information Engineering">EIE</abbr> at The Hong Kong Polytechnic University.
+                                </p>
+                                <p>
+                                    Currently, I'm studying the Master in Information Technology as a part-time student in the
+                                    Department of Computing at the same university. This is my 3<sup>rd</sup> year of study and
+                                    I have planned to graduate in next year.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="hobbies">
+                            <h2>Hobbies</h2>
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-primary">
+                                    <i class="fas fa-hiking" style='font-size:20px;color:green'>&nbsp;&nbsp;
+                                        <span style='font-weight: 600;font-family: Arial, Helvetica, sans-serif'>Hiking</span>
+                                    </i>
+                                </li>
+                                <li class="list-group-item list-group-item-warning">
+                                    <i class="fas fa-book-reader" style='font-size:20px;color:firebrick'>&nbsp;&nbsp;
+                                        <span style='font-weight: 600;font-family: Arial, Helvetica, sans-serif'>Reading</span>
+                                    </i>
+                                </li>
+                                <li class="list-group-item list-group-item-success">
+                                    <i class="fas fa-swimmer" style='font-size:20px;color:blue'>&nbsp;&nbsp;
+                                        <span style='font-weight: 600;font-family: Arial, Helvetica, sans-serif'>Swimming</span>
+                                    </i>
+                                </li>
+                            </ul>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="hobbies_slide" class="carousel slide" data-ride="carousel">
+
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#hobbies_slide" data-slide-to="0" class="active"></li>
+                                <li data-target="#hobbies_slide" data-slide-to="1"></li>
+                                <li data-target="#hobbies_slide" data-slide-to="2"></li>
+                            </ul>
+
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/doraemon_h_01.jpg" alt="Hiking" width="735" height="588">
+                                    <div class="carousel-caption">
+                                        <h3>Hiking</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/doraemon_h_02.jpg" alt="Reading" width="735" height="588">
+                                    <div class="carousel-caption">
+                                        <h3>Reading</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/doraemon_h_03.jpg" alt="Swimming" width="735" height="588">
+                                    <div class="carousel-caption">
+                                        <h3>Swimming</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#hobbies_slide" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#hobbies_slide" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/doraemon_grad_01.jpg" alt="Doraemon Graduation Photo" style="width:100%"><br /><br />
+                    </div>
+                    <div class="col-md-6">
+                        <div id="course_study">
+                            <h2>Course Study</h2>
+                            <div class="textboxBG">
+                                <p>During the master, I have taken below courses:</p>
+                                <p><strong>Completed</strong></p>
+                                <ul class="fa-ul" id="courseSLC">
+                                    <li>
+                                        <i class='fa-li fas fa-book-open'></i>
+                                        <a href="#collapseOne" data-toggle="collapse">COMP5122 E-Commerce Fundamentals and Development</a>
+                                        <div id="collapseOne" class="collapse textboxBGLY show">
+                                            Web system and programming, cryptography, internet security,
+                                            internet payment systems and E-commerce applications.
+                                            <a href="https://www.comp.polyu.edu.hk/files/COMP5122.pdf" class="badge badge-primary" target="_blank">
+                                                <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-book-open'></i>
+                                        <a href="#collapseTwo" data-toggle="collapse">COMP5134 Information System Development with Object-Oriented Methods</a>
+                                        <div id="collapseTwo" class="collapse textboxBGLY">
+                                            Introduction to system development, development method and OO method.
+                                            <a href="https://www.comp.polyu.edu.hk/files/COMP5134.pdf" class="badge badge-primary" target="_blank">
+                                                <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-book-open'></i>
+                                        <a href="#collapseThree" data-toggle="collapse">COMP5211 Software Engineering Concepts</a>
+                                        <div id="collapseThree" class="collapse textboxBGLY">
+                                            Programming myths and software crisis, software requirement, software design, software implementation,
+                                            software testing and maintenance, usability and usability engineering.
+                                            <a href="https://www.comp.polyu.edu.hk/files/COMP5211.pdf" class="badge badge-primary" target="_blank">
+                                                <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-book-open'></i>
+                                        <a href="#collapseFour" data-toggle="collapse">COMP5434 Big Data Computing</a>
+                                        <div id="collapseFour" class="collapse textboxBGLY">
+                                            Introduction to big data, big data computing, large-scale programming abstraction, 
+                                            large-scale data processing framework, large-scale database management, 
+                                            machine learning systems for big data, big data visualization and big data case studies.
+                                            <a href="https://www.comp.polyu.edu.hk/files/COMP5434.pdf" class="badge badge-primary" target="_blank">
+                                                <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-book-open'></i>
+                                        <a href="#collapseFive" data-toggle="collapse">COMP5511 Artificial Intelligence Concepts</a>
+                                        <div id="collapseFive" class="collapse textboxBGLY">
+                                            Logic programming, problem solving and search strategies, knowledge representation, 
+                                            reasoning in uncertainty situations, artificial neural networks, 
+                                            symbol based machine learning and selected advanced topics.
+                                            <a href="https://www.comp.polyu.edu.hk/files/COMP5511.pdf" class="badge badge-primary" target="_blank">
+                                                <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-book-open'></i>
+                                        <a href="#collapseSix" data-toggle="collapse">COMP5524 Workflow Management and Collaborative Systems</a>
+                                        <div id="collapseSix" class="collapse textboxBGLY">
+                                            Process automation and engineering, end-user systems, balanced scorecard, 
+                                            electronic document management system, telephony, video-conferencing, 
+                                            computer support cooperative work (CSCW), groupware, intranet, internet, electronic commerce, 
+                                            business-tobusiness, interworkflow, WfMC (Workflow Management Coalition), 
+                                            Extensible Markup Language (XML), Document Type Definition (DTD), public key 
+                                            infrastructure (PKI), certificate authority (CA), RosettaNet and ebXML.
+                                            <a href="https://www.comp.polyu.edu.hk/files/COMP5524.pdf" class="badge badge-primary" target="_blank">
+                                                <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-book-open'></i>
+                                        <a href="#collapseSeven" data-toggle="collapse">COMP5541 Machine Learning and Data Analytics</a>
+                                        <div id="collapseSeven" class="collapse textboxBGLY">
+                                            Supervised learning, unsupervised learning, semi-supervised learning, reinforcement learning 
+                                            and data analytics applications.
+                                            <a href="https://www.comp.polyu.edu.hk/files/COMP5541_Machine_Learning_and_Data_Analytics_Mar_2019.pdf"
+                                               class="badge badge-primary" target="_blank">
+                                                <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <p><strong>In progress</strong></p>
+                                <ul class="fa-ul" id="courseSLIP">
+                                    <li>
+                                        <i class='fa-li fas fa-book-open'></i>
+                                        <a href="#collapseIPOne" data-toggle="collapse">COMP5112 Data Structures and Database Systems</a>
+                                        <div id="collapseIPOne" class="collapse textboxBGLY">
+                                            Data structures representation and algorithms, sorting and searching algorithms, basic concepts of 
+                                            database system, relational data model, database design, data storage and querying.
+                                            <a href="https://www.comp.polyu.edu.hk/files/COMP5112_Data_Structures_and_Database_Systems_Mar_2019.pdf"
+                                               class="badge badge-primary" target="_blank">
+                                                <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-book-open'></i>
+                                        <a href="#collapseIPTwo" data-toggle="collapse">COMP5322 Internet Computing and Applications</a>
+                                        <div id="collapseIPTwo" class="collapse textboxBGLY">
+                                            Internet computing for enterprise IS, web-based client/server computing and 
+                                            future of web and Internet computing.
+                                            <a href="https://www.comp.polyu.edu.hk/files/COMP5322_Internet_Computing_and_Applications_Aug_2018.pdf"
+                                               class="badge badge-primary" target="_blank">
+                                                <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <br />
+                                <h5>Progress of Study:</h5>
+                                <div class="progress" style="height:30px">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:70%">
+                                        <strong>Completed: 70%</strong>
+                                    </div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:20%">
+                                        <strong>In progress: 20%</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="projects">
+                            <h2>Projects</h2>
+                            <div class="textboxBG">
+                                <p>During the master, I have done below programming projects:</p>
+                                <ul class="fa-ul" id="projectLT">
+
+                                    <li>
+                                        <i class='fa-li fas fa-laptop-code'></i>
+                                        Chatbot Development&nbsp;
+                                        <button type="button" class="badge btn-primary" data-toggle="modal" data-target="#projOneMdl">
+                                            <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                        </button>
+
+                                        <!-- The Modal -->
+                                        <div class="modal" id="projOneMdl">
+                                            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                                <div class="modal-content">
+
+                                                    <!-- Modal Header -->
+                                                    <div class="modal-header">
+                                                        <h3 class="modal-title">Chatbot Development</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                                    </div>
+
+                                                    <!-- Modal body -->
+                                                    <div class="modal-body text-justify">
+                                                        <p>
+                                                            There are numerous cuisines and dishes available in Hong Kong. It is always not easy to
+                                                            decide what to eat. To help people decide the most suitable food for them, I and
+                                                            my gourp members have created a chatbot. It will communicate with users about their living and
+                                                            eating habit and suggest users with the food best fitting them.
+                                                        </p>
+                                                        <p>
+                                                            The chatbot is designed as a web-based application which use a web server to handle user request.
+                                                            After receiving a request, the server will use a selection of machine learning algorithms to
+                                                            produce different types of responses to user.
+                                                        </p>
+                                                        <div class="col-sm-12 text-center">
+                                                            <img src="images/project_chatbot_01.png" alt="Chatbot image" style="width:95%; border: 2px solid black">
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Modal footer -->
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-laptop-code'></i>
+                                        Developing a Token Smart Contract&nbsp;
+                                        <button type="button" class="badge btn-primary" data-toggle="modal" data-target="#projTwoMdl">
+                                            <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                        </button>
+
+                                        <!-- The Modal -->
+                                        <div class="modal" id="projTwoMdl">
+                                            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                                <div class="modal-content">
+
+                                                    <!-- Modal Header -->
+                                                    <div class="modal-header">
+                                                        <h3 class="modal-title">Developing a Token Smart Contract</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                                    </div>
+
+                                                    <!-- Modal body -->
+                                                    <div class="modal-body text-justify">
+                                                        <p>
+                                                            In recent years, blockchain technology has brought revolution in several domains.
+                                                            It is a backlinked, decentralized and distributed-database of encrypted transactions.
+                                                            It allows a peer-to-peer network being created for users where transactions can be proceeded
+                                                            between them directly without an intermediary. The transactions can be any movement of money,
+                                                            goods, secure data or assignment of a government ID number. Therefore, it has the potential to
+                                                            change the way we transact, interact with government and verify the authenticity of goods that
+                                                            ranging from land to vegetables.
+                                                        </p>
+                                                        <p>
+                                                            Smart contracts is a
+                                                            self-operating computer program that executes automatically when specific conditions are met. It is
+                                                            running on Ethereum, which is an open-source & public blockchain based distributed computing platform for
+                                                            building decentralized applications.
+                                                        </p>
+                                                        <p>
+                                                            In this project, I have developed a guess number blockchain game which is a smart contact. It automates many
+                                                            blockchain tasks and it can be run on Ethereum. The game logic is shown as below image. At first, a creator
+                                                            deploys the guess number smart contract on the Ethereum. Then, the creator creates a new game with deposit for
+                                                            jackpot, set the start time and duration of the game. When the start time is reached, player can buy ticket
+                                                            during the specified duration. Player have to select four unique numbers for each ticket. After exceeding the
+                                                            specified duration, player cannot buy ticket and the creator can execute the end game process. The end game
+                                                            process will generate the win numbers, find the winners, distribute prizes for the winner and reward
+                                                            commission for creator.
+                                                        </p>
+                                                        <div class="col-sm-12 text-center">
+                                                            <img src="images/project_blockchain_01.png" alt="Guess number blockchain game image" style="width:95%">
+                                                        </div>
+                                                        <br />
+                                                        <div class="col-sm-12 mx-auto" style="width:85%">
+                                                            <table id="prizeTable">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Prize</th>
+                                                                        <th>Prize Allocation</th>
+                                                                        <th>Rule</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1<sup>st</sup> Prize</td>
+                                                                        <td>50% of jackpot / winning units</td>
+                                                                        <td>Pick all the 4 win numbers</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>2<sup>nd</sup> Prize</td>
+                                                                        <td>20% of jackpot / winning units</td>
+                                                                        <td>Pick 3 win numbers</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>3<sup>rd</sup> Prize</td>
+                                                                        <td>10% of jackpot / winning units</td>
+                                                                        <td>Pick 2 win numbers</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Creator Commission</td>
+                                                                        <td>20% of jackpot/td>
+                                                                        <td>Reward to creator when the game end</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                     </div>
+
+                                                    <!-- Modal footer -->
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-laptop-code'></i>
+                                        Mobile Price Classification&nbsp;
+                                        <button type="button" class="badge btn-primary" data-toggle="modal" data-target="#projThreeMdl">
+                                            <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                        </button>
+
+                                        <!-- The Modal -->
+                                        <div class="modal" id="projThreeMdl">
+                                            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                                <div class="modal-content">
+
+                                                    <!-- Modal Header -->
+                                                    <div class="modal-header">
+                                                        <h3 class="modal-title">Mobile Price Classification</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                                    </div>
+
+                                                    <!-- Modal body -->
+                                                    <div class="modal-body text-justify">
+                                                        <p>
+                                                            Machine learning is an application of artificial intelligence (AI) that provides systems the ability to
+                                                            automatically learn and improve from experience without being explicitly programmed. It focuses on the
+                                                            development of computer programs that can access data and use it learn for themselves.
+                                                        </p>
+                                                        <p>
+                                                            In this project, I have used some machine learning algorithms and a given dataset to create a classification model.
+                                                            It can be used to predict the price range of moblie phone.
+                                                        </p>
+                                                        <div class="col-sm-12 text-center">
+                                                            <img src="images/project_classification_01.png" alt="Mobile price classification model image" 
+                                                                 style="width:95%; border: 2px solid black">
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Modal footer -->
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <i class='fa-li fas fa-laptop-code'></i>
+                                        Project Man Hour Recorder&nbsp;
+                                        <button type="button" class="badge btn-primary" data-toggle="modal" data-target="#projFourMdl">
+                                            <i class="fa fa-info-circle" style="color:white"></i>&nbsp;Details
+                                        </button>
+
+                                        <!-- The Modal -->
+                                        <div class="modal" id="projFourMdl">
+                                            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                                <div class="modal-content">
+
+                                                    <!-- Modal Header -->
+                                                    <div class="modal-header">
+                                                        <h3 class="modal-title">Project Man Hour Recorder</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">×</button>
+                                                    </div>
+
+                                                    <!-- Modal body -->
+                                                    <div class="modal-body text-justify">
+                                                        <p>
+                                                            This application was inspired by my job. Our team have limited team members. 
+                                                            Every team members has to handle several projects. For better allocation the resource, 
+                                                            we need to know the time allocation of the projects so that we can find out whether any free 
+                                                            capacity is available.
+                                                        </p>
+                                                        <p>
+                                                            This is a small application which does not need installation. Any user can double click to open it
+                                                            if they have installed the <abbr title="Java Runtime Environment">JRE</abbr>. To take a record, user
+                                                            selects the project he is working on and other available options at the beginning of his work.
+                                                            Then, press the Start button to start the timer. After the user completed his work, he has to press 
+                                                            the Stop button to stop the timer. The application will write a record to a file for further analysis.
+                                                        </p>
+                                                        <div class="col-sm-12 text-center">
+                                                            <img src="images/project_recorder_01.png" alt="Project man hour recorder start image" style="width:48%; border: 1px solid black">&nbsp;
+                                                            <img src="images/project_recorder_02.png" alt="Project man hour recorder stop image" style="width:48%; border: 1px solid black">
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Modal footer -->
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="col-md-6">
+                        <img src="images/doraemon_proj_01.jpg" alt="Doraemon Project Photo" style="width:100%">
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/doraemon_pq_01.jpg" alt="Doraemon Professional Qualifications Photo" style="width:100%"><br /><br />
+                    </div>
+                    <div class="col-md-6">
+                        <div id="prof_qual">
+                            <h2>Professional Qualifications</h2>
+                            <div class="list-group">
+                                <a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-routing-switching.html"
+                                   class="list-group-item list-group-item-action list-group-item-warning" target="_blank" 
+                                   title="Cisco Certified Network Associate - Routing and Switching">
+                                    <i class="fas fa-network-wired" style='font-size:20px;color:green'>&nbsp;&nbsp;
+                                        <span style='text-decoration: underline;font-weight: 600;font-family: Arial, Helvetica, sans-serif'>CCNA - Routing and Switching</span>
+                                    </i>
+                                </a>
+                                <a href="https://www.axelos.com/certifications/itil-certifications/itil-foundation"
+                                   class="fas list-group-item list-group-item-action list-group-item-primary" target="_blank"
+                                   title="ITIL® 4 Foundation Certificate in IT Service Management" style='font-size:20px;color:firebrick'>
+                                    <i class="material-icons">people</i>&nbsp;&nbsp;
+                                    <span style='text-decoration: underline;font-weight: 600;font-family: Arial, Helvetica, sans-serif'>ITIL® 4 Foundation Certificate in IT Service Management</span>
+                                </a>
+                                <a href="https://docs.microsoft.com/en-us/learn/certifications/mcsa-windows-server-certification"
+                                   class="list-group-item list-group-item-action list-group-item-success" target="_blank" 
+                                   title="Microsoft Certified Solutions Associate - Windows Server 2012">
+                                    <i class="fas fa-server" style='font-size:20px;color:blue'>
+                                        &nbsp;&nbsp;
+                                        <span style='text-decoration: underline;font-weight: 600;font-family: Arial, Helvetica, sans-serif'>MCSA - Windows Server 2012</span>
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />br /><br /><br />br /><br /><br />
+</body>
+</html>
